@@ -1,0 +1,43 @@
+<html>
+
+  <head>
+
+    <title>{{current.title}}</title>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" src="../static/style.css">
+    [[[tags headTags,jQuery]]]
+
+  </head>
+
+  <body class="{{current.entityType}}-{{current.eid}}">
+      
+    [[[menu admin-toolbar]]]
+
+    <header id="page-header">
+        
+        [[[region header]]]
+        
+    </header>   
+      
+    <div id="content"> 
+        <div class="container">
+            
+            {{{iris_messages}}}
+            
+            [[[MAINCONTENT]]]
+            
+        </div>
+    </div>
+  
+    <footer id="page-footer">
+        
+        [[[region footer]]]
+        
+    </footer>
+
+  </body>
+
+</html>
